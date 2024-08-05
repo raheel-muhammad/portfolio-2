@@ -18,6 +18,7 @@ const projects = [
         stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "javascript" }],
         live: '',
         github: "",
+        image: "/assets/assets/work/thumb1.png"
     },
     {
         num: "02",
@@ -27,6 +28,7 @@ const projects = [
         stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "javascript" }],
         live: '',
         github: "",
+        image: "/assets/assets/work/thumb2.png"
     },
     {
         num: "03",
@@ -36,6 +38,7 @@ const projects = [
         stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "javascript" }],
         live: '',
         github: "",
+        image: "/assets/assets/work/thumb3.png"
     }
 ]
 
@@ -104,7 +107,9 @@ const Work = () => {
                                     <SwiperSlide key={index} className="w-full">
                                         <div className="h-[440px] relative group flex justify-center items-center bg-pink-50/20">
                                             <div className="absolute top-0 bottom-0 w-full h- bg-black/10 z-10">
-
+                                            </div>
+                                            <div className="relative w-full h-full">
+                                                <Image src={project.image} fill className="object-cover" alt="" />
                                             </div>
                                         </div>
                                     </SwiperSlide>

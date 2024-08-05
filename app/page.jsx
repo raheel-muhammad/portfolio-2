@@ -6,10 +6,12 @@ import Social from '@/components/Social';
 import Stats from '@/components/Stats';
 import { Button } from '@/components/ui/button';
 import { FiDownload } from 'react-icons/fi';
-import Contact from './contact/page';
-import Work from './work/page';
-import Resume from './resume/page';
-import Services from './services/page';
+import Contact from '@/components/Contact';
+import Work from '@/components/Work';
+import Resume from '@/components/Resume';
+import Services from '@/components/Services';
+import Link from 'next/link';
+
 
 
 const Home = () => {
@@ -55,7 +57,7 @@ const Home = () => {
         </div>
         <Stats />
       </Section>
-      <Section id="services">
+      <Section>
         <Services />
       </Section>
       <Section id="resume">
@@ -67,7 +69,7 @@ const Home = () => {
       <Section id="contact">
         <Contact />
       </Section>
-    </div>
+    </div >
   );
 };
 

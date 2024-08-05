@@ -146,7 +146,7 @@ const Resume = () => {
                         <TabsTrigger value="skills">Skills</TabsTrigger>
                         <TabsTrigger value="about">About me</TabsTrigger>
                     </TabsList>
-                    <div className='min-h-[70vh] w-full'>
+                    <div className=' w-full'>
                         <TabsContent value="experience" className="w-full">
                             <div className='flex flex-col gap-[30px] text-center xl:text-left'>
                                 <h3 className='text-4xl font-bold'>{experience.title}</h3>
