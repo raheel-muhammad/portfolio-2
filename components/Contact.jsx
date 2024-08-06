@@ -41,7 +41,7 @@ const Contact = () => {
                                 <Input type="phone" placeholder="Phone Number" />
                             </div>
                             <Select>
-                                <SelectTrigger className="w-full">
+                                <SelectTrigger className="flex flex-row justify-between items-center text-white/10 bg-primary h-[48px] px-4 border border-white/10 focus:border-accent rounded-md outline-none">
                                     <SelectValue placeholder="Select a service" />
                                 </SelectTrigger>
                                 <SelectContent>
